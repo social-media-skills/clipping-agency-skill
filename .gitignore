@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.bak
+*.part.mp4
+# episode source files are large and belong to the client; the examples never include them
+source.mp4
+source.*
+*.part
+/clients/
+/ledger.json
+/accounts.json
+/tiktok-inputs.json
+/session.json
+/status.json
+# scratch folders and files left by a build or a stopped script
+strip-tmp/
+*-tmp/
+tmp/
+*.tmp
+*.lock
